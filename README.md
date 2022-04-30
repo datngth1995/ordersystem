@@ -53,3 +53,4 @@ The limitations includes:
 1. Validation and update product number after each paied order can be supported in next release.
 2. Doesn't support export database into CSV
 3. Front end implementation can be easy for testing
+4. OMG, I just realize I shouldn't use HTTP GET to perform login operator. But don't worry I can fix it quickly in the next release
