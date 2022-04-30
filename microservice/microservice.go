@@ -177,7 +177,7 @@ func POSThandler(c *gin.Context) {
 			checkErr(err, "Add new customer failed in orders table")
 
 			c.JSON(http.StatusCreated,
-				gin.H{"status": http.StatusCreated, "message": "Create User is successfully!", "email": userInfo.Email})
+				gin.H{"status": http.StatusCreated, "message": "Create User is successful!", "email": userInfo.Email})
 		}
 	case "new_product":
 		//checking login first to create new product

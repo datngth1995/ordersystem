@@ -2,7 +2,7 @@ package main
 
 import (
 	"log"
-	"order/microservice"
+	"ordersystem/microservice"
 
 	_ "github.com/lib/pq"
 )

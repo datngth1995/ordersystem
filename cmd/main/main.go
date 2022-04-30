@@ -3,7 +3,7 @@
 package main
 
 import (
-	"order/microservice"
+	"ordersystem/microservice"
 
 	"github.com/gin-gonic/gin"
 )
